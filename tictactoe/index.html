@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="mainContainer flex flex-col gap-7 justify-center items-center h-screen">
+        <div id="winner" class="text-3xl text-pink-400">
+
+        </div>
+        <div class="gridContainer flex flex-col gap-3">
+            <div class="innerContainer flex gap-3 ">
+                <div id="girdbox0" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+                <div id="girdbox1" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+                <div id="girdbox2" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+            </div>
+           <div class="innerContainer flex gap-3">
+            <div id="girdbox3" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+            <div id="girdbox4" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+            <div id="girdbox5" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+           </div>
+           <div class="innerContainer flex gap-3">
+            <div id="girdbox6" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+            <div id="girdbox7" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+            <div id="girdbox8" class="gridbox w-[100px] h-[100px]   text-bold text-pink-400 text-3xl bg-gray-200 flex justify-center items-center"></div>
+           </div>
+        </div>
+        <div class="buttonContainer">
+            <button id="resetButton" class="px-6 hover:bg-pink-400 py-2 bg-pink-300 rounded-md">Restart</button>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
