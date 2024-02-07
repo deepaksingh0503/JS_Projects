@@ -3,7 +3,7 @@ let projectContainer = document.getElementById("projectContainer");
 let projectDetails = [
   { name: "Tic Tac Toe", projectName: "tictactoe" },
   { name: "Todo List", projectName: "todo" },
-  { name: "Music Player", projectName: "MusicPlayer" },
+  { name: "Calculator", projectName: "calculator" },
 ];
 
 const getHtml = (project)=>{
