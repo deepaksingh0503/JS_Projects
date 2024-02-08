@@ -70,6 +70,7 @@ let randomNum = Math.ceil(Math.random() * textData.length) - 1;
 
 const refreshText = () => {
   textContainer.innerHTML = "";
+  inputText.focus();
   randomNum = Math.ceil(Math.random() * textData.length) - 1;
   for (let i = 0; i < wordData[randomNum].length; i++) {
     let newHtml = `<span class="px-1 rounded-md" id="text${i}">${wordData[randomNum][i]}</span>`;
