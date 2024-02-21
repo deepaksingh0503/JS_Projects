@@ -4,7 +4,8 @@ let projectDetails = [
   { name: "Tic Tac Toe", projectName: "tictactoe" },
   { name: "Todo List", projectName: "todo" },
   { name: "Calculator", projectName: "calculator" },
-  { name: "Typeing Beast", projectName: "typingBeast" }
+  { name: "Typing Beast", projectName: "typingBeast" },
+  { name: "Typing Disco", projectName: "discoType" },
   ,
 ];
 
