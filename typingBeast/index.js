@@ -78,6 +78,7 @@ const refreshText = () => {
   }
   currentIndex = 0;
   time=60;
+  started = false;
   inputText.disabled=false;
   wordPerMin.innerText="0";
 timer.innerText = `${time}`;
